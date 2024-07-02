@@ -1,0 +1,39 @@
+.iconCardGold, .iconCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 7px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    transition: background-color 0.1s;
+}
+
+.iconCardGold {
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: gold;
+}
+
+.iconCardGold:hover {
+    background-color: rgb(255, 241, 159);
+}
+
+.iconCard:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.iconImage {
+    width: 50px;
+    padding: 20px;
+    align-self: center;
+}
+
+.iconName {
+    font-size: 12px;
+    align-self: center;
+    max-width: 180px;
+    overflow-wrap: break-word;
+}

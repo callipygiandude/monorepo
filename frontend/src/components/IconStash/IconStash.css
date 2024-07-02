@@ -1,0 +1,16 @@
+.iconStash {
+    display: flex;
+    flex-direction: column;
+}
+.iconGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-self: center;
+    align-content: center;
+}
+
+.iconAmount {
+    padding: 15px;
+    font-style: italic;
+    font-weight: 300;
+}

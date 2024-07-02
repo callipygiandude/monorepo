@@ -1,0 +1,73 @@
+.uploadBar {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    height: 110px;
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    top: 90px;
+}
+
+.uploadInput {
+    width: 100%;
+    padding: 5px;
+    padding-right: 60px;
+    margin: 0;
+    box-shadow: -1px 2px 7px rgb(153, 153, 153);
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    font-family: Oxygen;
+    background-color: white;
+    transition: box-shadow 0.1s;
+    resize: none;
+    overflow: auto;
+}
+
+.uploadInput:hover {
+    box-shadow: -1px 2px 7px rgb(101, 101, 101);
+}
+
+.uploadGo, .disabled {
+    margin: 0;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border:none;
+    background-color: rgb(242, 231, 255);;
+    box-shadow: -1px 2px 7px rgb(153, 153, 153);
+    border-radius: 8px;
+    transition: background-color 0.1s;
+    justify-content: center;
+    display: flex;
+}
+
+.uploadGo:hover {
+    background-color: rgb(226, 205, 252);
+}
+
+.uploadGo:active {
+    background-color: rgb(188, 136, 251);
+}
+
+.uploadGo > svg, .disabled > svg {
+    align-self: center;
+}
+
+.uploadButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.uploadPNG {
+    display: none;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
