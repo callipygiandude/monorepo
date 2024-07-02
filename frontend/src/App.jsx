@@ -31,7 +31,7 @@ export default function App() {
         setFilteredData([]);
         setUploadedPNGData();
         const response = await fetch(
-          `https://vercel-backend-ws6h.vercel.app/getFilteredIconsFromSVG`,
+          `https://monorepo-kohl-phi.vercel.app/getFilteredIconsFromSVG`,
           {
             method: "POST",
             headers: {
