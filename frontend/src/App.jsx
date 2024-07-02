@@ -73,8 +73,8 @@ export default function App() {
         const base64File = await convertToBase64(uploadedPNGData);
         const userInput = encodeURIComponent(base64File)
         const response = await fetch(
-          // `https://vercel-backend-ws6h.vercel.app/getFilteredIconsFromPNG`,
-          `http://localhost:3001/getFilteredIconsFromPNG`,
+          `https://monorepo-kohl-phi.vercel.app/getFilteredIconsFromPNG`,
+          // `http://localhost:3001/getFilteredIconsFromPNG`,
           {
             method: "POST",
             headers: {
