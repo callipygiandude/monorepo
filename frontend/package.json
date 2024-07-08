@@ -1,6 +1,6 @@
 {
   "homepage": "https://callipygiandude.github.io/image_search_tool",
-  "name": "image_search_tool",
+  "name": "frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
